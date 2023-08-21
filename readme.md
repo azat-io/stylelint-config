@@ -33,3 +33,7 @@ pnpm add --save-dev stylelint @azat-io/stylelint-config stylelint-config-recess-
   }
 }
 ```
+
+## See also
+
+- [`@azat-io/eslint-config`](https://github.com/azat-io/eslint-config)
