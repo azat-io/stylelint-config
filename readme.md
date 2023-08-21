@@ -1,5 +1,9 @@
 # Stylelint Config
 
+<img src="https://github-production-user-asset-6210df.s3.amazonaws.com/5698350/262110536-5a5be71e-1ba0-4d14-b819-6e416fb98fbe.svg" alt="Stylelint" align="right" width="150" height="150" />
+
+![Version](https://img.shields.io/npm/v/@azat-io/stylelint-config.svg?color=brightgreen)
+
 Stylelint sharable config.
 
 See [docs](https://github.com/azat-io/stylelint-config/blob/main/docs.md) for a list of all rules.
