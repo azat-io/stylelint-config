@@ -1,7 +1,7 @@
 {
   "name": "@azat-io/stylelint-config",
   "description": "Stylelint shareable config",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": "azat-io/stylelint-config",
   "author": "Azat S. <to@azat.io>",
   "license": "MIT",
