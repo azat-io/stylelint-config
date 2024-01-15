@@ -90,7 +90,6 @@ export default {
     'no-descending-specificity': true,
     'no-duplicate-at-import-rules': true,
     'no-duplicate-selectors': true,
-    'no-empty-source': true,
     'no-invalid-double-slash-comments': true,
     'no-invalid-position-at-import-rule': true,
     'number-max-precision': 4,

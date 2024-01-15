@@ -584,10 +584,6 @@ Disallow duplicate selectors.
 }
 ```
 
-### no-empty-source
-
-Disallow empty sources.
-
 ### no-invalid-double-slash-comments
 
 Disallow invalid double-slash comments.
