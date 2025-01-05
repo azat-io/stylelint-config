@@ -1,3 +1,14 @@
+/*
+  eslint perfectionist/sort-objects: [
+    'error',
+    {
+      type: 'alphabetical',
+      order: 'asc',
+      partitionByNewLine: true
+    }
+  ]
+*/
+
 export default {
   extends: ['stylelint-config-recess-order'],
   plugins: ['stylelint-gamut', 'stylelint-plugin-logical-css'],
@@ -82,8 +93,8 @@ export default {
         ignore: ['custom-properties'],
       },
     ],
-    'media-feature-name-no-vendor-prefix': true,
     'media-feature-name-no-unknown': true,
+    'media-feature-name-no-vendor-prefix': true,
     'media-feature-range-notation': 'context',
     'media-query-no-invalid': true,
     'named-grid-areas-no-invalid': true,
@@ -93,8 +104,8 @@ export default {
     'no-invalid-double-slash-comments': true,
     'no-invalid-position-at-import-rule': true,
     'number-max-precision': 4,
-    'property-no-vendor-prefix': true,
     'property-no-unknown': true,
+    'property-no-vendor-prefix': true,
     'rule-empty-line-before': [
       'always-multi-line',
       {
@@ -126,8 +137,8 @@ export default {
         ignorePseudoClasses: ['global'],
       },
     ],
-    'selector-pseudo-element-no-unknown': true,
     'selector-pseudo-element-colon-notation': 'double',
+    'selector-pseudo-element-no-unknown': true,
     'selector-type-case': 'lower',
     'selector-type-no-unknown': [
       true,

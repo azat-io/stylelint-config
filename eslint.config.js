@@ -1,11 +1,6 @@
-let config = require('@azat-io/eslint-config')
+let eslintConfig = require('@azat-io/eslint-config')
 
-module.exports = [
-  ...config,
-  {
-    rules: {
-      'perfectionist/sort-objects': 'off',
-    },
-    files: ['index.js'],
-  },
-]
+module.exports = eslintConfig({
+  perfectionist: true,
+  node: true,
+})
