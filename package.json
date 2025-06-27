@@ -12,6 +12,7 @@
   "repository": "azat-io/stylelint-config",
   "license": "MIT",
   "author": "Azat S. <to@azat.io>",
+  "type": "module",
   "main": "./dist/index.js",
   "files": [
     "./dist"
@@ -27,12 +28,14 @@
     "test:js": "eslint ."
   },
   "devDependencies": {
-    "@azat-io/eslint-config": "^2.8.0",
+    "@azat-io/eslint-config": "^2.36.0",
     "@commitlint/cli": "^18.4.3",
     "@commitlint/config-conventional": "^18.4.3",
+    "@types/node": "^24.0.4",
     "changelogen": "^0.5.5",
     "clean-publish": "^4.2.0",
-    "eslint": "^9.17.0",
+    "eslint": "^9.29.0",
+    "jiti": "^2.4.2",
     "prettier": "^3.1.1",
     "simple-git-hooks": "^2.9.0",
     "stylelint": "^16.0.2",
@@ -48,6 +51,9 @@
     "stylelint-gamut": "^1.3.3",
     "stylelint-order": "^6.0.3",
     "stylelint-plugin-logical-css": "^0.13.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   },
   "publishConfig": {
     "access": "public"
