@@ -25,7 +25,9 @@
     "release:version": "changelogen --output changelog.md --release --push && prettier --write changelog.md",
     "test": "pnpm run /^test:/",
     "test:format": "prettier --check \"**/*.{js,ts,json,md,yml}\"",
-    "test:js": "eslint ."
+    "test:js": "eslint .",
+    "test:packages": "pnpm dedupe --check",
+    "test:types": "tsc --noEmit --pretty"
   },
   "devDependencies": {
     "@azat-io/eslint-config": "^2.36.0",

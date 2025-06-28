@@ -16,15 +16,14 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: install pnpm
-        uses: pnpm/action-setup@v2
-        with:
-          version: 9
+      - name: Install Tools
+        uses: ./.github/actions/install-tools
 
-      - name: install node
-        uses: actions/setup-node@v3
-        with:
-          node-version: 20
+      - name: Install Dependencies
+        uses: ./.github/actions/install-dependencies
+
+      - name: Build Package
+        uses: ./.github/actions/build-package
 
       - run: pnpx changelogithub
         env:
