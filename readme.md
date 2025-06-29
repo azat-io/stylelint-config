@@ -1,7 +1,7 @@
 # Stylelint Config
 
 <img
-  src="https://github-production-user-asset-6210df.s3.amazonaws.com/5698350/262110536-5a5be71e-1ba0-4d14-b819-6e416fb98fbe.svg"
+  src="https://raw.githubusercontent.com/azat-io/stylelint-config/main/assets/logo.svg"
   alt="Stylelint Config Logo"
   align="right"
   width="160"
