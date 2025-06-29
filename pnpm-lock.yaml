@@ -7,6 +7,19 @@ settings:
 importers:
 
   .:
+    dependencies:
+      stylelint-config-recess-order:
+        specifier: ^7.1.0
+        version: 7.1.0(stylelint-order@7.0.0(stylelint@16.21.0(typescript@5.8.3)))(stylelint@16.21.0(typescript@5.8.3))
+      stylelint-gamut:
+        specifier: ^1.3.4
+        version: 1.3.4(stylelint@16.21.0(typescript@5.8.3))
+      stylelint-order:
+        specifier: ^7.0.0
+        version: 7.0.0(stylelint@16.21.0(typescript@5.8.3))
+      stylelint-plugin-logical-css:
+        specifier: ^1.2.3
+        version: 1.2.3(stylelint@16.21.0(typescript@5.8.3))
     devDependencies:
       '@azat-io/eslint-config':
         specifier: ^2.36.0
@@ -41,21 +54,9 @@ importers:
       stylelint:
         specifier: ^16.21.0
         version: 16.21.0(typescript@5.8.3)
-      stylelint-config-recess-order:
-        specifier: ^7.1.0
-        version: 7.1.0(stylelint-order@7.0.0(stylelint@16.21.0(typescript@5.8.3)))(stylelint@16.21.0(typescript@5.8.3))
       stylelint-define-config:
         specifier: ^16.21.0
         version: 16.21.0(stylelint@16.21.0(typescript@5.8.3))
-      stylelint-gamut:
-        specifier: ^1.3.4
-        version: 1.3.4(stylelint@16.21.0(typescript@5.8.3))
-      stylelint-order:
-        specifier: ^7.0.0
-        version: 7.0.0(stylelint@16.21.0(typescript@5.8.3))
-      stylelint-plugin-logical-css:
-        specifier: ^1.2.3
-        version: 1.2.3(stylelint@16.21.0(typescript@5.8.3))
       vite:
         specifier: ^7.0.0
         version: 7.0.0(@types/node@24.0.7)(jiti@2.4.2)(yaml@2.7.0)
