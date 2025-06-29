@@ -1,4 +1,4 @@
-name: release
+name: Release
 
 on:
   push:
@@ -6,13 +6,19 @@ on:
       - 'v*'
   workflow_dispatch:
 
+permissions:
+  id-token: write
+  contents: write
+  packages: write
+
 jobs:
   release:
+    name: Release
     runs-on: ubuntu-latest
 
     steps:
-      - name: checkout
-        uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
 
@@ -25,6 +31,16 @@ jobs:
       - name: Build Package
         uses: ./.github/actions/build-package
 
-      - run: pnpx changelogithub
+      - name: Create GitHub Release
+        run: pnpm run ci:changelog
         env:
-          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Configure NPM Auth
+        run: echo "//registry.npmjs.org/:_authToken=${{ secrets.NODE_AUTH_TOKEN }}" > ~/.npmrc
+
+      - name: Clear Package JSON
+        run: pnpm run ci:clear
+
+      - name: Publish Root Package to NPM
+        run: npm publish --access public --no-git-checks --provenance
