@@ -18,18 +18,21 @@ let removeComments = (): Plugin => ({
 
 export default defineConfig({
   build: {
+    rollupOptions: {
+      external: (id: string) =>
+        !id.startsWith('.') &&
+        !path.isAbsolute(id) &&
+        id !== 'stylelint-define-config',
+      output: {
+        preserveModules: false,
+        exports: 'auto',
+      },
+    },
     lib: {
-      entry: path.resolve(import.meta.dirname, 'index.js'),
+      entry: path.resolve(import.meta.dirname, 'index.ts'),
       fileName: (_format, entryName) => `${entryName}.js`,
       name: '@azat-io/stylelint-config',
       formats: ['es'],
-    },
-    rollupOptions: {
-      output: {
-        preserveModules: true,
-        exports: 'auto',
-      },
-      external: (id: string) => !id.startsWith('.') && !path.isAbsolute(id),
     },
     minify: false,
   },
