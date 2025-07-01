@@ -16,6 +16,7 @@ export default defineConfig({
   plugins: [
     'stylelint-gamut',
     'stylelint-high-performance-animation',
+    'stylelint-plugin-defensive-css',
     'stylelint-plugin-logical-css',
     'stylelint-use-nesting',
   ],
@@ -422,6 +423,11 @@ export default defineConfig({
      * Prevent use of low performance animation and transition properties.
      */
     'plugin/no-low-performance-animation-properties': true,
+
+    /**
+     * Enforce defensive CSS best practices.
+     */
+    'plugin/use-defensive-css': true,
 
     /**
      * Require logical properties and values.
