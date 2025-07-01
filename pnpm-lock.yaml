@@ -14,6 +14,9 @@ importers:
       stylelint-gamut:
         specifier: ^1.3.4
         version: 1.3.4(stylelint@16.21.0(typescript@5.8.3))
+      stylelint-high-performance-animation:
+        specifier: ^1.11.0
+        version: 1.11.0(stylelint@16.21.0(typescript@5.8.3))
       stylelint-order:
         specifier: ^7.0.0
         version: 7.0.0(stylelint@16.21.0(typescript@5.8.3))
@@ -3031,6 +3034,11 @@ packages:
     engines: {node: '>=16.0.0'}
     peerDependencies:
       stylelint: ^14.0.0 || ^15.0.0 || ^16.0.0
+
+  stylelint-high-performance-animation@1.11.0:
+    resolution: {integrity: sha512-bo+VfSH5RmjVmu61BZeN4cBK+PGHpG5jfvaUsw0db+1sAqKuEGjzmxEbf271/Jq3HJHj8wyi/rCg1IcxxnIiiQ==}
+    peerDependencies:
+      stylelint: ^7.0.0 || ^8.0.0 || ^9.0.0 || ^10.0.0 || ^11.0.0 || ^12.0.0 || ^13.0.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
 
   stylelint-order@7.0.0:
     resolution: {integrity: sha512-rSWxx0KscYfxU02wEskKXES9lkRzuuONMMNkZ7SUc6uiF3tDKm7e+sE0Ax/SBlG4TUf1sp1R6f3/SlsPGmzthg==}
@@ -6658,6 +6666,11 @@ snapshots:
   stylelint-gamut@1.3.4(stylelint@16.21.0(typescript@5.8.3)):
     dependencies:
       colorjs.io: 0.4.5
+      stylelint: 16.21.0(typescript@5.8.3)
+
+  stylelint-high-performance-animation@1.11.0(stylelint@16.21.0(typescript@5.8.3)):
+    dependencies:
+      postcss-value-parser: 4.2.0
       stylelint: 16.21.0(typescript@5.8.3)
 
   stylelint-order@7.0.0(stylelint@16.21.0(typescript@5.8.3)):
