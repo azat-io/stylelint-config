@@ -1,5 +1,3 @@
-import defineConfig from 'stylelint-define-config'
-
 /*
   eslint perfectionist/sort-objects: [
     'error',
@@ -11,9 +9,15 @@ import defineConfig from 'stylelint-define-config'
   ]
 */
 
+import defineConfig from 'stylelint-define-config'
+
 export default defineConfig({
   extends: ['stylelint-config-recess-order'],
-  plugins: ['stylelint-gamut', 'stylelint-plugin-logical-css'],
+  plugins: [
+    'stylelint-gamut',
+    'stylelint-plugin-logical-css',
+    'stylelint-use-nesting',
+  ],
   rules: {
     /**
      * Specify percentage notation for alpha-values.
@@ -421,5 +425,10 @@ export default defineConfig({
      * Require logical units.
      */
     'plugin/use-logical-units': true,
+
+    /**
+     * Enforce nesting when it is possible.
+     */
+    'csstools/use-nesting': 'always',
   },
 })
