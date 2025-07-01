@@ -297,10 +297,6 @@ export default defineConfig({
      */
     'no-unknown-custom-media': true,
     /**
-     * Disallow unknown custom properties.
-     */
-    'no-unknown-custom-properties': true,
-    /**
      * Limit the number of decimal places allowed in numbers.
      */
     'number-max-precision': 4,
