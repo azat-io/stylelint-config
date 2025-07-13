@@ -46,7 +46,6 @@ pnpm add --save-dev stylelint @azat-io/stylelint-config
 This config uses the following plugins:
 
 - [stylelint-gamut](https://github.com/fpetrakov/stylelint-gamut)
-- [stylelint-high-performance-animation](https://github.com/kristerkari/stylelint-high-performance-animation)
 - [stylelint-plugin-defensive-css](https://github.com/yuschick/stylelint-plugin-defensive-css)
 - [stylelint-plugin-logical-css](https://github.com/yuschick/stylelint-plugin-logical-css)
 - [stylelint-order](https://github.com/hudochenkov/stylelint-order)

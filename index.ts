@@ -15,7 +15,6 @@ export default defineConfig({
   extends: ['stylelint-config-recess-order'],
   plugins: [
     'stylelint-gamut',
-    'stylelint-high-performance-animation',
     'stylelint-plugin-defensive-css',
     'stylelint-plugin-logical-css',
     'stylelint-use-nesting',
@@ -414,11 +413,6 @@ export default defineConfig({
      * `@media (color-gamut: p3) {}` or `@media (color-gamut: rec2020) {}`.
      */
     'gamut/color-no-out-gamut-range': true,
-
-    /**
-     * Prevent use of low performance animation and transition properties.
-     */
-    'plugin/no-low-performance-animation-properties': true,
 
     /**
      * Enforce defensive CSS best practices.
