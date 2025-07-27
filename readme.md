@@ -54,6 +54,7 @@ This config uses the following plugins:
 ## See also
 
 - [`@azat-io/eslint-config`](https://github.com/azat-io/eslint-config)
+- [`@azat-io/typescript-config`](https://github.com/azat-io/typescript-config)
 
 ## License
 
