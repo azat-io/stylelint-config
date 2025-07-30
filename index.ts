@@ -300,6 +300,10 @@ export default defineConfig({
      */
     'no-invalid-position-at-import-rule': true,
     /**
+     * Disallow invalid position declarations.
+     */
+    'no-invalid-position-declaration': true,
+    /**
      * Disallow unknown animations.
      */
     'no-unknown-animations': true,
