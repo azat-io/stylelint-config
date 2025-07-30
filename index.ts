@@ -316,6 +316,10 @@ export default defineConfig({
      */
     'number-max-precision': 4,
     /**
+     * Disallow deprecated properties.
+     */
+    'property-no-deprecated': true,
+    /**
      * Disallow unknown properties.
      */
     'property-no-unknown': true,
