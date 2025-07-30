@@ -267,6 +267,10 @@ export default defineConfig({
      */
     'media-query-no-invalid': true,
     /**
+     * Disallow deprecated media types.
+     */
+    'media-type-no-deprecated': true,
+    /**
      * Disallow invalid named grid areas.
      */
     'named-grid-areas-no-invalid': true,
