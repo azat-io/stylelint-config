@@ -66,6 +66,10 @@ export default defineConfig({
      */
     'block-no-empty': true,
     /**
+     * Disallow redundant nested style rules within blocks.
+     */
+    'block-no-redundant-nested-style-rules': true,
+    /**
      * Specify modern notation for color-functions.
      */
     'color-function-notation': 'modern',
