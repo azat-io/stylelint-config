@@ -275,6 +275,10 @@ export default defineConfig({
      */
     'named-grid-areas-no-invalid': true,
     /**
+     * Disallow missing scoping root for nesting selectors.
+     */
+    'nesting-selector-no-missing-scoping-root': true,
+    /**
      * Disallow selectors of lower specificity from coming after overriding
      * selectors of higher specificity.
      */
