@@ -1,5 +1,21 @@
 # Changelog
 
+## v1.2.0
+
+[compare changes](https://github.com/azat-io/stylelint-config/compare/v1.1.0...v1.2.0)
+
+### 🚀 Features
+
+- Add block-no-redundant-nested-style-rules rule ([2399ee0](https://github.com/azat-io/stylelint-config/commit/2399ee0))
+- Add media-type-no-deprecated rule ([f4b9a18](https://github.com/azat-io/stylelint-config/commit/f4b9a18))
+- Add nesting-selector-no-missing-scoping-root rule ([25de021](https://github.com/azat-io/stylelint-config/commit/25de021))
+- Add no-invalid-position-declaration rule ([174a344](https://github.com/azat-io/stylelint-config/commit/174a344))
+- Add property-no-deprecated rule ([9b19cad](https://github.com/azat-io/stylelint-config/commit/9b19cad))
+
+### ❤️ Contributors
+
+- Azat S. <to@azat.io>
+
 ## v1.1.0
 
 [compare changes](https://github.com/azat-io/stylelint-config/compare/v1.0.0...v1.1.0)
