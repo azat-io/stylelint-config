@@ -50,6 +50,7 @@
     "@azat-io/eslint-config": "^2.41.0",
     "@commitlint/cli": "^19.8.1",
     "@commitlint/config-conventional": "^19.8.1",
+    "@commitlint/types": "^19.8.1",
     "@types/node": "^24.1.0",
     "changelogen": "^0.6.2",
     "changelogithub": "^13.16.0",
