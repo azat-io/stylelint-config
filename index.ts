@@ -9,9 +9,9 @@
   ]
 */
 
-import defineConfig from 'stylelint-define-config'
+import type { Config } from 'stylelint'
 
-export default defineConfig({
+export default {
   extends: ['stylelint-config-recess-order'],
   plugins: [
     'stylelint-gamut',
@@ -105,7 +105,7 @@ export default defineConfig({
     'custom-media-pattern': [
       '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
       {
-        message: name =>
+        message: (name: string) =>
           `Expected custom media query name "${name}" to be kebab-case`,
       },
     ],
@@ -123,7 +123,7 @@ export default defineConfig({
     'custom-property-pattern': [
       '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
       {
-        message: name =>
+        message: (name: string) =>
           `Expected custom property name "${name}" to be kebab-case`,
       },
     ],
@@ -230,7 +230,8 @@ export default defineConfig({
     'keyframes-name-pattern': [
       '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
       {
-        message: name => `Expected keyframe name "${name}" to be kebab-case`,
+        message: (name: string) =>
+          `Expected keyframe name "${name}" to be kebab-case`,
       },
     ],
     /**
@@ -351,7 +352,7 @@ export default defineConfig({
     'selector-class-pattern': [
       '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
       {
-        message: selector =>
+        message: (selector: string) =>
           `Expected class selector "${selector}" to be kebab-case`,
       },
     ],
@@ -361,7 +362,7 @@ export default defineConfig({
     'selector-id-pattern': [
       '^([a-z][a-z0-9]*)(-[a-z0-9]+)*$',
       {
-        message: selector =>
+        message: (selector: string) =>
           `Expected id selector "${selector}" to be kebab-case`,
       },
     ],
@@ -453,4 +454,4 @@ export default defineConfig({
      */
     'csstools/use-nesting': 'always',
   },
-})
+} satisfies Config
