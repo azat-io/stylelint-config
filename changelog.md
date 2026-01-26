@@ -6,8 +6,10 @@
 
 ### 🚀 Features
 
-- Update stylelint plugins ([5234395](https://github.com/azat-io/stylelint-config/commit/5234395))
-- Move to stylelint v17 ([da8a127](https://github.com/azat-io/stylelint-config/commit/da8a127))
+- Update stylelint plugins
+  ([5234395](https://github.com/azat-io/stylelint-config/commit/5234395))
+- Move to stylelint v17
+  ([da8a127](https://github.com/azat-io/stylelint-config/commit/da8a127))
 
 ### ❤️ Contributors
 
@@ -19,7 +21,8 @@
 
 ### 🚀 Features
 
-- Update stylelint plugins ([b763003](https://github.com/azat-io/stylelint-config/commit/b763003))
+- Update stylelint plugins
+  ([b763003](https://github.com/azat-io/stylelint-config/commit/b763003))
 
 ### ❤️ Contributors
 
@@ -31,11 +34,16 @@
 
 ### 🚀 Features
 
-- Add block-no-redundant-nested-style-rules rule ([2399ee0](https://github.com/azat-io/stylelint-config/commit/2399ee0))
-- Add media-type-no-deprecated rule ([f4b9a18](https://github.com/azat-io/stylelint-config/commit/f4b9a18))
-- Add nesting-selector-no-missing-scoping-root rule ([25de021](https://github.com/azat-io/stylelint-config/commit/25de021))
-- Add no-invalid-position-declaration rule ([174a344](https://github.com/azat-io/stylelint-config/commit/174a344))
-- Add property-no-deprecated rule ([9b19cad](https://github.com/azat-io/stylelint-config/commit/9b19cad))
+- Add block-no-redundant-nested-style-rules rule
+  ([2399ee0](https://github.com/azat-io/stylelint-config/commit/2399ee0))
+- Add media-type-no-deprecated rule
+  ([f4b9a18](https://github.com/azat-io/stylelint-config/commit/f4b9a18))
+- Add nesting-selector-no-missing-scoping-root rule
+  ([25de021](https://github.com/azat-io/stylelint-config/commit/25de021))
+- Add no-invalid-position-declaration rule
+  ([174a344](https://github.com/azat-io/stylelint-config/commit/174a344))
+- Add property-no-deprecated rule
+  ([9b19cad](https://github.com/azat-io/stylelint-config/commit/9b19cad))
 
 ### ❤️ Contributors
 
@@ -47,7 +55,8 @@
 
 ### 🚀 Features
 
-- Remove stylelint-high-performance-animation plugin ([fc99e4e](https://github.com/azat-io/stylelint-config/commit/fc99e4e))
+- Remove stylelint-high-performance-animation plugin
+  ([fc99e4e](https://github.com/azat-io/stylelint-config/commit/fc99e4e))
 
 ### ❤️ Contributors
 
@@ -59,12 +68,18 @@
 
 ### 🚀 Features
 
-- Rewrite stylelint config ([b60f82e](https://github.com/azat-io/stylelint-config/commit/b60f82e))
-- Move stylelint plugins to dependencies ([31a05ab](https://github.com/azat-io/stylelint-config/commit/31a05ab))
-- Add stylelint-use-nesting plugin ([a87b0c1](https://github.com/azat-io/stylelint-config/commit/a87b0c1))
-- Add stylelint-high-performance-animation plugin ([fb76520](https://github.com/azat-io/stylelint-config/commit/fb76520))
-- Add stylelint-plugin-defensive-css plugin ([644b627](https://github.com/azat-io/stylelint-config/commit/644b627))
-- Remove no-unknown-custom-properties rule ([40e5c55](https://github.com/azat-io/stylelint-config/commit/40e5c55))
+- Rewrite stylelint config
+  ([b60f82e](https://github.com/azat-io/stylelint-config/commit/b60f82e))
+- Move stylelint plugins to dependencies
+  ([31a05ab](https://github.com/azat-io/stylelint-config/commit/31a05ab))
+- Add stylelint-use-nesting plugin
+  ([a87b0c1](https://github.com/azat-io/stylelint-config/commit/a87b0c1))
+- Add stylelint-high-performance-animation plugin
+  ([fb76520](https://github.com/azat-io/stylelint-config/commit/fb76520))
+- Add stylelint-plugin-defensive-css plugin
+  ([644b627](https://github.com/azat-io/stylelint-config/commit/644b627))
+- Remove no-unknown-custom-properties rule
+  ([40e5c55](https://github.com/azat-io/stylelint-config/commit/40e5c55))
 
 ### ❤️ Contributors
 
@@ -76,7 +91,8 @@
 
 ### 🚀 Features
 
-- Remove no-empty-source rule ([8e3efea](https://github.com/azat-io/stylelint-config/commit/8e3efea))
+- Remove no-empty-source rule
+  ([8e3efea](https://github.com/azat-io/stylelint-config/commit/8e3efea))
 
 ### ❤️ Contributors
 

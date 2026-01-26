@@ -11,9 +11,14 @@
 [![Version](https://img.shields.io/npm/v/@azat-io/stylelint-config.svg?color=fff&labelColor=000)](https://npmjs.com/package/@azat-io/stylelint-config)
 [![GitHub License](https://img.shields.io/badge/license-MIT-232428.svg?color=fff&labelColor=000)](https://github.com/azat-io/stylelint-config/blob/main/license.md)
 
-A comprehensive and flexible Stylelint configuration that supports diverse CSS frameworks, preprocessors, and styling approaches. Seamlessly enforce clean, consistent styling standards across projects by enabling rules for specific tools and methodologies.
+A comprehensive and flexible Stylelint configuration that supports diverse CSS
+frameworks, preprocessors, and styling approaches. Seamlessly enforce clean,
+consistent styling standards across projects by enabling rules for specific
+tools and methodologies.
 
-This config delivers multiple styling setups through a single, intuitive import, ensuring consistency across different project architectures and CSS technologies.
+This config delivers multiple styling setups through a single, intuitive import,
+ensuring consistency across different project architectures and CSS
+technologies.
 
 ## Installation
 
@@ -53,8 +58,9 @@ This config uses the following plugins:
 
 ## See also
 
-- [`@azat-io/eslint-config`](https://github.com/azat-io/eslint-config)
-- [`@azat-io/typescript-config`](https://github.com/azat-io/typescript-config)
+- [@azat-io/eslint-config](https://github.com/azat-io/eslint-config)
+- [@azat-io/prettier-config](https://github.com/azat-io/prettier-config)
+- [@azat-io/typescript-config](https://github.com/azat-io/typescript-config)
 
 ## License
 
