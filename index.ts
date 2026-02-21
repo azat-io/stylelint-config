@@ -430,24 +430,65 @@ export default {
     'value-no-vendor-prefix': true,
 
     /**
+     * Require `:hover` selectors to be wrapped in `@media (hover: hover)`.
+     */
+    'defensive-css/no-accidental-hover': true,
+    /**
+     * Disallow `list-style: none` outside of navigation to preserve
+     * accessibility.
+     */
+    'defensive-css/no-list-style-none': true,
+    /**
+     * Disallow mixing vendor-prefixed selectors in a single rule.
+     */
+    'defensive-css/no-mixed-vendor-prefixes': true,
+    /**
+     * Disallow common `will-change` anti-patterns that harm performance.
+     */
+    'defensive-css/no-unsafe-will-change': true,
+    /**
+     * Require explicit `background-repeat` when using `background-image`.
+     */
+    'defensive-css/require-background-repeat': true,
+    /**
+     * Require dynamic viewport units (`dvh`) instead of static `100vh`.
+     */
+    'defensive-css/require-dynamic-viewport-height': true,
+    /**
+     * Require explicit `flex-wrap` for flex containers.
+     */
+    'defensive-css/require-flex-wrap': true,
+    /**
+     * Require `:focus-visible` instead of `:focus`.
+     */
+    'defensive-css/require-focus-visible': true,
+    /**
+     * Require named grid lines in grid templates.
+     */
+    'defensive-css/require-named-grid-lines': true,
+    /**
+     * Require animations to be wrapped in `prefers-reduced-motion` media query.
+     */
+    'defensive-css/require-prefers-reduced-motion': true,
+
+    /**
      * Throw warning if color goes out of sRGB color space and is not wrapped in
      * `@media (color-gamut: p3) {}` or `@media (color-gamut: rec2020) {}`.
      */
     'gamut/color-no-out-gamut-range': true,
 
     /**
-     * Enforce defensive CSS best practices.
+     * Require logical keywords.
      */
-    'plugin/use-defensive-css': true,
-
+    'logical-css/require-logical-keywords': true,
     /**
-     * Require logical properties and values.
+     * Require logical properties.
      */
-    'plugin/use-logical-properties-and-values': true,
+    'logical-css/require-logical-properties': true,
     /**
      * Require logical units.
      */
-    'plugin/use-logical-units': true,
+    'logical-css/require-logical-units': true,
 
     /**
      * Enforce nesting when it is possible.
