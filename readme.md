@@ -38,10 +38,10 @@ pnpm add --save-dev stylelint @azat-io/stylelint-config
 
 3. Add script for package.json:
 
-```js
+```json
 {
   "scripts": {
-    "test:css": "stylelint \"**/*.css\"",
+    "test:css": "stylelint \"**/*.css\""
   }
 }
 ```
