@@ -20,7 +20,7 @@ function removeComments(): Plugin {
 
 export default defineConfig({
   build: {
-    rollupOptions: {
+    rolldownOptions: {
       external: (id: string) =>
         !id.startsWith('.') &&
         !path.isAbsolute(id) &&
@@ -28,6 +28,9 @@ export default defineConfig({
       output: {
         preserveModules: false,
         exports: 'auto',
+      },
+      experimental: {
+        attachDebugInfo: 'none',
       },
     },
     lib: {
