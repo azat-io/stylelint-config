@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.9.0
+
+[compare changes](https://github.com/azat-io/stylelint-config/compare/v1.8.0...v1.9.0)
+
+### 🚀 Features
+
+- Update stylelint plugins
+  ([9e6544b](https://github.com/azat-io/stylelint-config/commit/9e6544b))
+
+### ❤️ Contributors
+
+- Azat S. ([@azat-io](https://github.com/azat-io))
+
 ## v1.8.0
 
 [compare changes](https://github.com/azat-io/stylelint-config/compare/v1.7.0...v1.8.0)
