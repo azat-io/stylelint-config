@@ -4,7 +4,6 @@
   src="https://raw.githubusercontent.com/azat-io/stylelint-config/main/assets/logo.svg"
   alt="Stylelint Config Logo"
   align="right"
-  width="160"
   height="160"
 />
 
