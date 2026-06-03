@@ -1,5 +1,24 @@
 # Changelog
 
+## v1.10.0
+
+[compare changes](https://github.com/azat-io/stylelint-config/compare/v1.9.0...v1.10.0)
+
+### 🚀 Features
+
+- Update stylelint plugins
+  ([2c19d50](https://github.com/azat-io/stylelint-config/commit/2c19d50))
+- Add no-unsafe-clamp-font-size rule
+  ([f7a176f](https://github.com/azat-io/stylelint-config/commit/f7a176f))
+- Add require-forced-colors-focus rule
+  ([60502d0](https://github.com/azat-io/stylelint-config/commit/60502d0))
+- Add require-system-font-fallback rule
+  ([52526e0](https://github.com/azat-io/stylelint-config/commit/52526e0))
+
+### ❤️ Contributors
+
+- Azat S. ([@azat-io](https://github.com/azat-io))
+
 ## v1.9.0
 
 [compare changes](https://github.com/azat-io/stylelint-config/compare/v1.8.0...v1.9.0)
