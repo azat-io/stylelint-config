@@ -443,6 +443,11 @@ export default {
      */
     'defensive-css/no-mixed-vendor-prefixes': true,
     /**
+     * Disallow unsafe `clamp()` ratios for font sizes that violate WCAG text
+     * resize requirements.
+     */
+    'defensive-css/no-unsafe-clamp-font-size': true,
+    /**
      * Disallow common `will-change` anti-patterns that harm performance.
      */
     'defensive-css/no-unsafe-will-change': true,
