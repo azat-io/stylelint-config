@@ -468,6 +468,10 @@ export default {
      */
     'defensive-css/require-focus-visible': true,
     /**
+     * Require focus indicators to remain visible in Windows Forced Colors Mode.
+     */
+    'defensive-css/require-forced-colors-focus': true,
+    /**
      * Require named grid lines in grid templates.
      */
     'defensive-css/require-named-grid-lines': true,
