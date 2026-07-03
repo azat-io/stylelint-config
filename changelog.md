@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.11.0
+
+[compare changes](https://github.com/azat-io/stylelint-config/compare/v1.10.0...v1.11.0)
+
+### 🚀 Features
+
+- Temporarily remove require-system-font-fallback rule
+  ([aaf95f0](https://github.com/azat-io/stylelint-config/commit/aaf95f0))
+
+### ❤️ Contributors
+
+- Azat S. ([@azat-io](https://github.com/azat-io))
+
 ## v1.10.0
 
 [compare changes](https://github.com/azat-io/stylelint-config/compare/v1.9.0...v1.10.0)
