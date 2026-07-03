@@ -479,10 +479,6 @@ export default {
      * Require animations to be wrapped in `prefers-reduced-motion` media query.
      */
     'defensive-css/require-prefers-reduced-motion': true,
-    /**
-     * Require web-safe or system font fallbacks in `font-family` declarations.
-     */
-    'defensive-css/require-system-font-fallback': true,
 
     /**
      * Throw warning if color goes out of sRGB color space and is not wrapped in
