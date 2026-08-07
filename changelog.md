@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.12.0
+
+[compare changes](https://github.com/azat-io/stylelint-config/compare/v1.11.0...v1.12.0)
+
+### 🚀 Features
+
+- Update stylelint plugins
+  ([34f0a64](https://github.com/azat-io/stylelint-config/commit/34f0a64))
+- Add require-system-font-fallback rule
+  ([264ec06](https://github.com/azat-io/stylelint-config/commit/264ec06))
+
+### ❤️ Contributors
+
+- Azat S. ([@azat-io](https://github.com/azat-io))
+
 ## v1.11.0
 
 [compare changes](https://github.com/azat-io/stylelint-config/compare/v1.10.0...v1.11.0)
