@@ -1,5 +1,18 @@
 # Changelog
 
+## v1.13.0
+
+[compare changes](https://github.com/azat-io/stylelint-config/compare/v1.12.0...v1.13.0)
+
+### 🚀 Features
+
+- Update stylelint plugins
+  ([d5c5403](https://github.com/azat-io/stylelint-config/commit/d5c5403))
+
+### ❤️ Contributors
+
+- Azat S. ([@azat-io](https://github.com/azat-io))
+
 ## v1.12.0
 
 [compare changes](https://github.com/azat-io/stylelint-config/compare/v1.11.0...v1.12.0)
