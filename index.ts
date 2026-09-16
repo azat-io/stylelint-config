@@ -367,6 +367,10 @@ export default {
       },
     ],
     /**
+     * Disallow unmatchable selectors.
+     */
+    'selector-no-unmatchable': true,
+    /**
      * Disallow vendor prefixes for selectors.
      */
     'selector-no-vendor-prefix': true,
