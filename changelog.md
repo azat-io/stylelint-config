@@ -1,5 +1,20 @@
 # Changelog
 
+## v1.14.0
+
+[compare changes](https://github.com/azat-io/stylelint-config/compare/v1.13.0...v1.14.0)
+
+### 🚀 Features
+
+- Update stylelint plugins
+  ([c254db8](https://github.com/azat-io/stylelint-config/commit/c254db8))
+- Add selector-no-unmatchable rule
+  ([921aa48](https://github.com/azat-io/stylelint-config/commit/921aa48))
+
+### ❤️ Contributors
+
+- Azat S. ([@azat-io](https://github.com/azat-io))
+
 ## v1.13.0
 
 [compare changes](https://github.com/azat-io/stylelint-config/compare/v1.12.0...v1.13.0)
