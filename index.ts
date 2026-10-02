@@ -60,7 +60,12 @@ export default {
     /**
      * Disallow invalid preludes for at-rules.
      */
-    'at-rule-prelude-no-invalid': true,
+    'at-rule-prelude-no-invalid': [
+      true,
+      {
+        ignoreAtRules: ['apply'],
+      },
+    ],
     /**
      * Disallow empty blocks.
      */
