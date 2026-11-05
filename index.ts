@@ -29,6 +29,10 @@ export default {
      */
     'annotation-no-unknown': true,
     /**
+     * Disallow invalid `@charset` rules.
+     */
+    'at-charset-rule-no-invalid': true,
+    /**
      * Disallow unknown at-rule descriptors.
      */
     'at-rule-descriptor-no-unknown': true,
