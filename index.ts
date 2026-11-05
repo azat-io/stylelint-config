@@ -372,6 +372,10 @@ export default {
       },
     ],
     /**
+     * Disallow deprecated selectors.
+     */
+    'selector-no-deprecated': true,
+    /**
      * Disallow unmatchable selectors.
      */
     'selector-no-unmatchable': true,
