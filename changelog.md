@@ -1,5 +1,34 @@
 # Changelog
 
+## v2.0.0
+
+[compare changes](https://github.com/azat-io/stylelint-config/compare/v1.14.0...v2.0.0)
+
+### 🚀 Features
+
+- ⚠️ Upgrade stylelint to v18
+  ([aa664c7](https://github.com/azat-io/stylelint-config/commit/aa664c7))
+- Add at-charset-rule-no-invalid rule
+  ([6892f88](https://github.com/azat-io/stylelint-config/commit/6892f88))
+- Add selector-no-deprecated rule
+  ([009f8ca](https://github.com/azat-io/stylelint-config/commit/009f8ca))
+- Add selector-no-invalid rule
+  ([d7f0b8b](https://github.com/azat-io/stylelint-config/commit/d7f0b8b))
+
+### 🐞 Bug Fixes
+
+- Allow apply at-rule in at-rule-prelude-no-invalid
+  ([d1aed9f](https://github.com/azat-io/stylelint-config/commit/d1aed9f))
+
+#### ⚠️ Breaking Changes
+
+- ⚠️ Upgrade stylelint to v18
+  ([aa664c7](https://github.com/azat-io/stylelint-config/commit/aa664c7))
+
+### ❤️ Contributors
+
+- Azat S. ([@azat-io](https://github.com/azat-io))
+
 ## v1.14.0
 
 [compare changes](https://github.com/azat-io/stylelint-config/compare/v1.13.0...v1.14.0)
