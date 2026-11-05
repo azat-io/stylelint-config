@@ -376,6 +376,10 @@ export default {
      */
     'selector-no-deprecated': true,
     /**
+     * Disallow invalid selectors.
+     */
+    'selector-no-invalid': true,
+    /**
      * Disallow unmatchable selectors.
      */
     'selector-no-unmatchable': true,
