@@ -154,10 +154,6 @@ export default {
      */
     'declaration-block-no-shorthand-property-overrides': true,
     /**
-     * Limit the number of declarations within a single-line declaration block.
-     */
-    'declaration-block-single-line-max-declarations': 1,
-    /**
      * Disallow an empty line before declarations.
      */
     'declaration-empty-line-before': 'never',
@@ -433,6 +429,10 @@ export default {
      * Specify lowercase for values.
      */
     'value-keyword-case': 'lower',
+    /**
+     * Disallow invalid values.
+     */
+    'value-no-invalid': true,
     /**
      * Disallow vendor prefixes for values.
      */
